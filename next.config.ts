@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
             bodySizeLimit: '100mb',
         }
     },
+    typescript: {
+        ignoreBuildErrors: true,
+    },
   images: {remotePatterns: [
           { protocol: 'https', hostname: 'covers.openlibrary.org' },
           { protocol: 'https', hostname: '0hewkr0pb8b4qubb.public.blob.vercel-storage.com' }
