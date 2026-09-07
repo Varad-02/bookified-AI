@@ -11,7 +11,7 @@ import {Show, SignInButton, SignUpButton, UserButton, useUser} from '@clerk/next
 const navItems = [
     { label: "Library", href: "/" },
     { label: "Add New", href: "/books/new" },
-
+    { label: "Pricing", href: "/subscriptions" },
 ]
 
 const Navbar = () => {
